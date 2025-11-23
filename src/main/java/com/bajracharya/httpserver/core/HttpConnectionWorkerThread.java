@@ -24,7 +24,7 @@ public class HttpConnectionWorkerThread extends Thread {
             inputStream = socket.getInputStream();
             outputStream = socket.getOutputStream();
             //reading
-
+            
 
             //writing
             String html = "<html><head><title>http server </title></head><body><h1>Hello</h1></body></html>";
